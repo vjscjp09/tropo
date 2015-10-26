@@ -25,6 +25,7 @@ To create a tropo application you need to have a tropo account, so visit [www.tr
 
 ### Step 4
 Provide the application name.
+
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/createapp1.png)
 
 ## Step 5
@@ -34,11 +35,12 @@ Choose the type of application, you will find two option here
 
 in this case we will select "Web (HTTP) Api" as we will host our application on cisco shipped servers.
 
-Now find the shipped url where your application is deployed already. copy this urls
+Now find the shipped url where your application is hosted already. copy this urls
+
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/shipped.png)
 
 ### Step 5
-Specify your application url. and click on Create Application button.
+Specify your application url. and click on "Create App" button.
 
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/createapp2.png)
 
@@ -51,10 +53,11 @@ make sure right scripting uls are reflected for Voice and Text scripts, if not y
 ### Step 7
 Scroll down to the same screen you may find VOIP Details. from here you can test your application settings.
 click on button "Call App from browser"
+
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/createapp4.png)
 
 ### Step 8
-Now click on Call button, you should a hear call a with running your application script hosted on shipped server.
+Now click on Call button, you should hear a call running your application script hosted on shipped server.
 
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/createapp5.png)
 
