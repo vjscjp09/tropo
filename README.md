@@ -1,6 +1,9 @@
-# Tropo
+# Tropo WebAPI Shipped Buildpack
 
-This is an sample application to demanstrate how to create a tropo application.
+This is an sample application to demonstrate how to build, deploy, run and iterate Tropo  web API based application Shipped.
+![](./images/tropo_shipped.png)
+
+
 ## About Tropo
 Tropo makes it simple to automate communications, connecting your code to the phone network with both voice and messaging. You use the web technologies you already know and Tropo’s powerful cloud API to bring real-time communications to your apps.
 
@@ -9,18 +12,18 @@ Tropo makes it simple to automate communications, connecting your code to the ph
 you may have a look at the [Tropo Documentation](https://www.tropo.com/docs/) before begining to this tutorial.
 
 ### Step 1
-To create a tropo application you need to have a tropo account, so visit [www.tropo.com](https://www.tropo.com) and register yourself. 
+To create a tropo application you need to have a tropo account, so visit [www.tropo.com](https://www.tropo.com) and register yourself.
 
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/home.png)
 
 ### Step 2
  Login with you valid credentials.
- 
+
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/login.png)
 
 ### Step 3
  Once you login you can go to the My Application tab. CLick on "Create New App" button to launch create app wizard.
- 
+
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/newapp.png)
 
 ### Step 4
@@ -45,7 +48,7 @@ Specify your application url. and click on "Create App" button.
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/createapp2.png)
 
 ### Step 6
-Next Screen will show you application details and script details. 
+Next Screen will show you application details and script details.
 make sure right scripting uls are reflected for Voice and Text scripts, if not you can update them and "Save Settings"
 
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/createapp3.png)
@@ -60,4 +63,3 @@ click on button "Call App from browser"
 Now click on Call button, you should hear a call running your application script hosted on shipped server.
 
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/createapp5.png)
-
