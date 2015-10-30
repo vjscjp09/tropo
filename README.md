@@ -1,7 +1,25 @@
 # Tropo WebAPI Shipped Buildpack
 
-This is an sample application to demonstrate how to build, deploy, run and iterate Tropo  web API based application Shipped.
+This is an sample application to demonstrate how to build, deploy, run and iterate Tropo web API based application Shipped.
 ![](./images/tropo_shipped.png)
+Following section provide more details and links to Tropo and how to register application endpoint once deployed it is deployed on Shipped.
+
+For creating Application in Shipped using Tropo buildpack refer to getting started section of Shipped document:  http://shipped-cisco.com/shipped/api-docs/build/index.html#walkthroughs
+
+At service creation Step need to select "Cisco Tropo WebAPI" Buildpack under API tab. Rest
+project creation and and deployment section will remain same.
+
+## Sample Application
+This sample application implements following sample voice flow:
+- User call to Weather office
+- User given 2 options to select 1. Get weather for zipcode 2. Contact employees
+   - User select 1. whether option
+     - Enter 5 digit zip code
+     - Weather details for city using voice response
+   - User select 2. to contact employees
+     - Provide list of employees
+     - User tell employee name by voice command
+     - System forwards call to employee if name exist in directory.
 
 
 ## About Tropo
@@ -9,7 +27,7 @@ Tropo makes it simple to automate communications, connecting your code to the ph
 
 [More ...](https://www.tropo.com/how-it-works)
 
-you may have a look at the [Tropo Documentation](https://www.tropo.com/docs/) before begining to this tutorial.
+you may have a look at the [Tropo Documentation](https://www.tropo.com/docs/) before beginning to this tutorial.
 
 ### Step 1
 To create a tropo application you need to have a tropo account, so visit [www.tropo.com](https://www.tropo.com) and register yourself.
