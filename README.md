@@ -4,6 +4,11 @@ This is an sample application to demonstrate how to build, deploy, run and itera
 ![](./images/tropo_shipped.png)
 Following section provide more details and links to Tropo and how to register application endpoint once deployed it is deployed on Shipped.
 
+## Zero to functioning Tropo app, build and deploy on Shipped
+
+[Tropo App E2E Video](https://cisco.webex.com/ciscosales/lsr.php?RCID=71d84c45796443f48c9e64d3e6c5f743)
+
+### Creating and deploying tropo App on Shipped
 For creating Application in Shipped using Tropo buildpack refer to getting started section of Shipped document:  http://shipped-cisco.com/shipped/api-docs/build/index.html#walkthroughs
 
 At service creation Step need to select "Cisco Tropo WebAPI" Buildpack under API tab. Rest
