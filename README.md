@@ -63,6 +63,7 @@ in this case we will select "Web (HTTP) Api" as we will host our application on 
 
 Now find the shipped url where your application is hosted already. copy this urls
 
+Note: For building and deploying app in Shipped refer  http://shipped-cisco.com/shipped/api-docs/build/index.html#walkthroughs . Choose 'Cisco Tropo WebAPI' buildpack under API tab while creating new service.  
 ![](https://github.com/CiscoCloud/tropo/blob/master/images/shipped.png)
 
 ### Step 5
