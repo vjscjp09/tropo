@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/CiscoCloud/shipped-buildpack-template-express",
   "dependencies": {
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "jsonfile": "^2.2.3",
+    "underscore": "^1.8.3",
+    "request": ">= 0.0.1",
+    "body-parser": ">= 0.0.1",
+    "serve-static": ">= 0.0.1"
   }
 }
