@@ -3,16 +3,16 @@ git:
   path: github.com/vjscjp09/tropo-new
 script:
   - echo "build commands"
-  - bin/build
-  - bin/test
+  - .shipped/build
+  - .shipped/test
 clone:
   path: github.com/vjscjp09/tropo-new
 build:
   image: mikejihbe/nodejs-ssh:latest
   commands:
     - echo "build commands"
-    - bin/build
-    - bin/test
+    - .shipped/build
+    - .shipped/test
 publish:
   docker:
     dockerfile: ./Dockerfile
